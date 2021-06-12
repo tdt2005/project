@@ -27,15 +27,69 @@ a {
     border-radius: 100px;
 }
 a:hover {
-    background-color: rgb(108,65,61);;
+    background-color: rgb(108,65,61);
     width: 100px;
     height: 50px;
 }
 
 .container1{
     display: flex;
-    justify-content: center;
-    height: ;
-    width: ;
+    flex-direction: column;
+    align-items:  center;
     margin-top: 100px;
+}
+#Tricolumn {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 1503px;
+}
+video{
+    width: 425px;
+    height: 250 px;
+}
+
+#Lcolumn, #Rcolumn {
+    background-color: rgb(230, 193, 187);
+    height: 755px;
+    width: 425px;
+}
+
+.container2{
+    display: flex;
+    flex-direction: column;
+    align-items:  center;
+    margin-top: 100px;
+}
+.scroll{
+    width: 1300px;
+    display: flex;
+    flex-direction: row;   
+    flex-wrap: wrap;
+}
+.frame{
+    width: 300px;
+    height: 300px;
+    background-color: rgb(196,157,151);
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.container3 {
+    display: flex;
+    flex-direction: column  ;
+    align-items: center;
+    margin-top: 100px;
+}
+.neckCon{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 800px;
+}
+.necklace{
+    width: 300px;
+    height: 300px;
+    background-color: rgb(196,157,151);
 }
